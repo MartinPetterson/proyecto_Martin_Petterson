@@ -1,0 +1,27 @@
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+input{
+    color: grey;
+}
+
+ #correo , #telefono , #ubicacion {
+    height: 45px;
+    width: 45px;
+ }
+
+p{
+    color: gray;
+}
+
+h5{
+    font-family: 'Jomhuria', cursive;
+    color: rgb(235, 152, 0);
+}
+
+.row{
+    margin-right: 0%;
+}

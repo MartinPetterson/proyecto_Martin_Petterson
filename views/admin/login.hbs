@@ -1,0 +1,29 @@
+<div class="container"
+  style="width: 450px; margin-left: 510px; align-content: center; text-align-last:center; padding-top: 25px">
+  <div class="row" style="margin-top: 30px ;">
+    <div class="col">
+
+      <h3 style="text-align: center; padding-bottom: 20px">¡Bienvenido! Ingrese los datos necesarios para poder ingresar</h3>
+      <form action="/admin/login" method="POST">
+        <div class="form-group">
+
+          <input type="text" class="form-control" placeholder="Ingrese su nombre de usuario" name="usuario">
+
+        </div>
+
+
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Ingrese su contraseña" name="password">
+
+          <p class="text-muted">Nunca comparta su contraseña con otras personas</p>
+        
+        </div>
+        <button type="submit" class="btn btn-dark">Entrar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  {{#if error}}
+  <p>Usuario o contraseña incorrectas. Intente de nuevo.</p>
+  {{/if}}

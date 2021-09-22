@@ -1,0 +1,41 @@
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+#tienda{
+    padding-top: 80px;
+}
+
+#pc1 , #monitor{
+    color: orange;
+}
+
+#pc2 , #Rtx{
+    color: red;
+}
+
+#pc3 , #pc4 , #TecladoK{
+    color: rgb(5, 165, 5);
+}
+
+#Joystick{
+    color: blue;
+}
+
+.row{
+    margin-right: 0%;
+}
+
+.text-muted{
+    color: black!important;
+    font-size: 20px;
+    font-weight:700;
+}
+
+.card-footer{
+    border-top: white;
+}
+
+

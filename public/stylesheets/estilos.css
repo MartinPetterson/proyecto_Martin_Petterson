@@ -1,0 +1,95 @@
+/* font-family: 'Stint Ultra Condensed', cursive; */
+
+h1{
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.hero{
+    background: url(../images/header12.jpg) no-repeat;
+background-size: cover;
+height: 0.4vh;
+min-height: 400px;
+color: white;
+}
+
+.Novedades-lista{
+    padding-left: 1px;
+    list-style: none;
+}
+
+.Novedades-lista li{
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: x-large;
+
+}
+
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+.Novedades-lista li a{
+    background-color: white;
+color: #a0a0a0;
+text-decoration: none;
+transition: all .2s ease-in-out;
+display: block;
+}
+
+.Novedades-lista li a:hover{
+    color: black;
+    background-color: rgb(235, 152, 0);
+
+}
+
+.Novedades-lista li a img{
+    color: black;
+    animation-duration: 1s;
+    /* filter: grayscale(); */
+    transition: all .2s ease-in-out;
+    /* opacity: 0.7; */
+    }
+
+.Testimonios{
+    background-color: rgba(209, 209, 209, 0.679);
+    padding-bottom: 4rem !important;
+
+}
+
+.Testimonio{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+background-image: none;
+
+}
+   
+
+.carousel-control-prev-icon::after, 
+.carousel-control-next-icon::after{
+    font-family:"FontAwesome" ;
+font-size: 25px;
+color: orange;
+}
+
+.carousel-control-prev-icon::after {
+    content: "\f0a8 ";
+}
+
+.carousel-control-next-icon::after{
+    content: "\f0a9";
+}
+
+.carousel-caption{
+    color: black;
+    position:unset;
+}
+
+.row{
+    margin-right: 0px;
+}  

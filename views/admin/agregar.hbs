@@ -1,0 +1,50 @@
+<div class="container" style="margin: 100px auto;">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4> Agregar un nuevo producto</h4>
+            <form action="/admin/productos/agregar" method="POST">
+
+                {{!-- INICIO ID --}}
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Id" name="id">
+                </div>
+                {{!-- FIN ID --}}
+
+                {{!-- INICIO TITULO --}}
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                </div>
+                {{!-- FIN TITULO --}}
+
+
+                {{!-- INICIO DE DESCRIPCION --}}
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Descripcion" name="descripcion"></textarea>
+                </div>
+                {{!-- FIN DE DESCRIPCION --}}
+
+
+                {{!-- INICIO DE PRECIO --}}
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Precio (Agregar $ y . )" name="precio"></textarea>
+                </div>
+                {{!-- FIN DE PRECIO --}}
+
+
+                {{!-- INICIO DE ESTADO --}}
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Estado" name="estado"></textarea>
+                </div>
+                {{!-- FIN DE ESTADO --}}
+
+                <button type="submit" class="btn btn-primary"> Guardar </button>
+
+            </form>
+
+            {{#if error}}
+                <h5> {{message}} </h5>
+            {{/if}}
+        
+        </div>
+    </div>
+</div>
